@@ -18,6 +18,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     <p class="read-the-docs">
       Click on the Vite and TypeScript logos to learn more
     </p>
+    <h1>${import.meta.env.VITE_API_BASE_URL}</h1>
   </div>
 `
 
