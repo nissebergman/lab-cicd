@@ -61,7 +61,7 @@ jobs:
         with:
           push: true
           tags: |
-            ${{ env.IMAGE_REGISTRY }}/lab-cicd:${{ env.SHA_SHORT }}
-            ${{ env.IMAGE_REGISTRY }}/lab-cicd:latest
+            ${{ env.IMAGE_REGISTRY }}/lab-cicd2:${{ env.SHA_SHORT }}
+            ${{ env.IMAGE_REGISTRY }}/lab-cicd2:latest
           build-args: |
             VITE_API_BASE_URL=${{ env.VITE_API_BASE_URL }}
