@@ -35,7 +35,6 @@ jobs:
       VITE_API_BASE_URL: ${{ secrets.VITE_API_BASE_URL }}
       GITHUB_USER: nissebergman
       IMAGE_REGISTRY: ghcr.io/nissebergman
-      
     steps:
       # Checkout our repository
       - uses: actions/checkout@v4
